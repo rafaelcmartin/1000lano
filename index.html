@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is where your description goes">
+        <meta name="keywords" content="one, two, three">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>1000Lano</title>
+        <link rel="shortcut icon" href="./assets/favicon.png" />
+        <!-- external CSS link -->
+        <script src="https://kit.fontawesome.com/3f7da84ca4.js" crossorigin="anonymous"></script>
+
+        <!-- font Crimson Text -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/screens.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/3dcarousel.css">
+
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img src="./assets/novo_logo.png" alt="Hair icon with text Vige and Co." class="imageFull">
+                 
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">SOBRE</a></li>
+                    <li><a href="#services">SERVIÇOS</a></li>
+                    <li><a href="#lookbook">LOOKBOOK</a></li>
+                    <li><a href="#contact">CONTATO</a></li>
+                    <li><a href="#">BOOK ONLINE</a></li>
+                    <!--with border -->
+                </ul>
+            </nav>
+        </header>
+        <main id="home">
+            <section>
+                <h1>LOIRO & DESTAQUE</h1>
+                <p>DIVIDA SUA SINGULARIDADE PELOS SEUS CABELOS</p>
+                <a class="ourServicesMain" href="#">- NOSSOS SERVIÇOS</a>
+                <section class="firstVisitorsDiscount">
+                    <h3>SUA PRIMEIRA VIISTA ?</h3>
+                    <p> <span>-20%</span> PARA A PRIMEIRA COLORAÇÃO DE CABELO CLÁSSICA</p>
+                    <a href="#">- BOOK ONLINE </a>
+                </section>
+            </section>
+        </main>
+
+        <section id="about" class="aboutUs">
+            <h3>Sobre Nós</h3>
+            <h1>Seu cabelo é nossa prioridade</h1>
+            <p>Oferecemos a melhor experiência de estilo de cabelo que garante deixar você mais bonita</p>
+            <a class="links" href="#">Leia Mais</a>
+        </section>
+
+        <section id="services" class="services">
+            <section class="servicesIndividual">
+                <img src="./assets/icons8-hairdresser-64.png" alt="beautician">
+                <h3>ESTETICISTAS ESPECIALISTAS</h3>
+                <p>Especialistas em beleza.</p>
+            </section>
+            <section class="servicesIndividual">
+                <img src="./assets/icons8-barber-chair-64.png" alt="salon chair">
+                <h3>SERVIÇOS DE QUALIDADE</h3>
+                <p>Cabelos estilosos</p>
+            </section>
+            <section class="servicesIndividual">
+                <img src="./assets/icons8-grocery-shelf-64.png" alt="beauty products">
+                <h3>PRODUTOS DE BELEZA</h3>
+                <p>Produtos coloridos</p>
+            </section>
+        </section>
+
+        <section id="lookbook" class="lookbook">
+            <h2>NOSSO LOOKBOOK</h2>
+            <!-- partial:index.partial.html -->
+            <div class="container">
+                <div class="wgh-slider">
+                    <input class="wgh-slider-target" type="radio" id="slide-1" name="slider" />
+                    <input class="wgh-slider-target" type="radio" id="slide-2" name="slider" />
+                    <input class="wgh-slider-target" type="radio" id="slide-3" name="slider" checked="checked" />
+                    <input class="wgh-slider-target" type="radio" id="slide-4" name="slider" />
+                    <input class="wgh-slider-target" type="radio" id="slide-5" name="slider" />
+                    <div class="wgh-slider__viewport">
+                        <div class="wgh-slider__viewbox">
+                            <div class="wgh-slider__container">
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/3.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Cabelo formal
+                                                    Serviços</a><span>de Estilos</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-1"
+                                            title="Show product 1"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/2.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Cortes de cabelos e
+                                                    Serviços</a><span>de estilo</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-2"
+                                            title="Show product 2"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/1.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Cabelo da moda
+                                                    Serviço</a><span>de cores</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-3"
+                                            title="Show product 3"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/4.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Cabelo
+                                                    estiloso</a><span>Serviços</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-4"
+                                            title="Show product 4"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/5.png"
+                                                alt="RYSY - Traveler LP" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Cabelo
+                                                    Spa</a><span>Serviços</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-5"
+                                            title="Show product 5"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- partial -->
+
+        </section>
+
+        <footer>
+            <section class="ourCare">
+                <h3>NOSSO CUIDADO</h3>
+                <ul class="ourCareUl">
+                    <li><a href="#">Cortes e Estilos</a></li>
+                    <li><a href="#">Coloração</a></li>
+                    <li><a href="#">Extensões</a></li>
+                    <li><a href="#">Cabelos formais</a></li>
+                    <li><a href="#">Corte Infantil</a></li>
+                    <li><a href="#">Franja e pescoço</a></li>
+                </ul>
+            </section>
+
+            <section class="businessHours">
+                <h3>HORÁRIO DE FUNCIONAMENTO</h3>
+                <p><span>Segunda</span> à <span>Sábado</span> com hora marcada</p>
+                <ul>
+                    <li>
+                        <i class="fab fa-facebook-f"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                </ul>
+                <!-- <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+                <p class="lastAttrib">Photos by <a target="_blank" href="https://canva.com">Canva</a></p> -->
+            </section>
+
+            <section id="contact" class="contact">
+                <h3>CONTATO</h3>
+                <section>
+                    <h5>Endereço</h5>
+                    <p>Rua das Amoras, 1</p>
+                </section>
+                <section>
+                    <h5>Telefone</h5>
+                    <p>(81)999999999</p>
+                </section>
+                <section>
+                    <h5>Email</h5>
+                    <p>mail@bybeth.com</p>
+                </section>
+            </section>
+        </footer>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+
+</html>
